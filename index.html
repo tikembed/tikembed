@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="main.js"></script>
+    <title>TikEmbed - TikTok to Discord Converter</title>
+	<meta name="description" content="TikEmbed allows you to easily convert TikTok URLs into Discord embeddable links. Simply paste your TikTok link and click convert.">
+	<meta name="keywords" content="TikTok, Discord, Embed, URL Converter">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>TikTok URL Converter</h1>
+        <h1>TikTok to Discord URL</h1>
         <p>Enter your TikTok URL:</p>
         <input type="text" id="inputUrl" placeholder="Paste TikTok URL here">
         <button onclick="transformUrl()">Convert URL</button>
-        <p>Here is your new URL:</p>
+        <p>Here is your Discord URL: <span id="clickToCopy">(Click link to Copy 😊)</span></p>
         <input type="text" id="outputUrl" readonly onclick="copyToClipboard()">
-        <div id="copiedAlert" class="alert-hidden">Copied!</div>
+        <div id="copiedAlert" class="alert alert-hidden">Copied!</div>
+		<div id="urlAlert" class="alert alert-hidden"></div>
+
     </div>
+	<script src="main.js"></script>
 </body>
 </html>
