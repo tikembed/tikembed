@@ -1,16 +1,13 @@
-### Hi there 👋
+# TikTok to Discord Embed URL Converter
 
-<!--
-**tikembed/tikembed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a simple web application that converts TikTok URLs into embeddable links for Discord.
 
-Here are some ideas to get you started:
+## How to Use
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Enter a TikTok URL into the input field.
+2. Click the 'Convert URL' button.
+3. Click on the newly generated URL to copy it to your clipboard.
+
+## License
+
+This project is licensed under the MIT License.
