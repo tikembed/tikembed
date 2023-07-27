@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok URL Converter</h1>
+        <p>Enter your TikTok URL:</p>
+        <input type="text" id="inputUrl" placeholder="Paste TikTok URL here">
+        <button onclick="transformUrl()">Convert URL</button>
+        <p>Here is your new URL:</p>
+        <input type="text" id="outputUrl" readonly onclick="copyToClipboard()">
+        <div id="copiedAlert" class="alert-hidden">Copied!</div>
+    </div>
+</body>
+</html>
